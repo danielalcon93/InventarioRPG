@@ -26,6 +26,7 @@ public class Main {
 
         personaje.agregarEquipo(TipoEquipamiento.MANO_PRINCIPAL, personaje.buscarItem("Espada"));
         personaje.agregarEquipo(TipoEquipamiento.PECHO, personaje.buscarItem("Capa Blanca"));
+        personaje.agregarEquipo(TipoEquipamiento.PIERNAS, personaje.buscarItem("Botas de Acero aleman"));
 
         IO.println("---- EQUIPO ----");
         for(Map.Entry<TipoEquipamiento, Item> entry : personaje.getEquipo()) {
