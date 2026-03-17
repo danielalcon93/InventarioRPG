@@ -75,6 +75,7 @@ public class Personaje {
 
         }
         //Poner el nuevo item
+        //ToDo - Habría que comprobar TipoItem para ver si puedo ponerlo donde corresponde
         equipo.put(tipoEquipamiento, item);
         //Eliminar el nuevo item del inventario
         inventario.remove(item.getNombre());
