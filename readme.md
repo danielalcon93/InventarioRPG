@@ -13,5 +13,5 @@ para agregar, eliminar y visualizar los objetos en el inventario.
 - Ejecutar el comando mvn clean install para compilar el proyecto
 - Ejecutar el comando mvn exec:java para iniciar la aplicación
 
-- o Ejecutar el archivo.jar generado en la carpeta resources
+- o Ejecutar el archivo.jar generado en la carpeta resources.
 
